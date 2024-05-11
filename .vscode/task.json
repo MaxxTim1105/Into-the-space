@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "Src/main.cpp",
+                "Src/Entity.cpp",
+                "Src/Animation.cpp",
+                "Src/Player.cpp",
+                "Src/Asteroid.cpp",
+                "Src/Bullet.cpp",
+                "-IHeaderFile",
+                "-ISDL2/include",
+                "-LSDL2/lib",
+                "-lmingw32",
+                "-lSDL2main",
+                "-lSDL2",
+                "-lSDL2_image",
+                "-mwindows",
+                "-o",
+                "main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}

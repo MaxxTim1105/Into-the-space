@@ -1,0 +1,20 @@
+#pragma once
+
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
+#include "../SDL2/include/SDL.h"
+#include "../SDL2/include/SDL_image.h"
+#include "../SDL2/include/SDL_ttf.h"
+#include "../SDL2/include/SDL_events.h"
+#include "../HeaderFile/menu.h"
+#include "../HeaderFile/Entity.h"
+#include "../HeaderFile/Animation.h"
+#include "../HeaderFile/Player.h"
+#include "../HeaderFile/Asteroid.h"
+#include "../HeaderFile/Bullet.h"
+#include "../HeaderFile/constants.h"
+#include "../HeaderFile/highscore.h"
