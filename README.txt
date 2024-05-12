@@ -7,5 +7,3 @@ Cách chơi:
     +Arrow right: xoay phi thuyền sang phải.
     +Arrow left: xoay phi thuyền sang trái.
     +Space: bắn đạn
-Chạy code trong thư mục Project với: make 
-(hoặc g++ -std=c++17 -o main.exe Src/*.cpp -IHeaderFile -ISDL2/include -LSDL2/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf)

@@ -1,10 +1,9 @@
 #ifndef ANIMATION_H
 #define ANIMATION_H
-
 #include <SDL2/SDL.h>
 #include <vector>
 
-class Animation {
+class Animation{
 public:
     float Frame, speed;
     SDL_Texture *texture;
@@ -13,5 +12,4 @@ public:
     Animation(SDL_Texture *tex, int x, int y, int w, int h, int count, float Speed);
     void update();
 };
-
 #endif 

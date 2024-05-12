@@ -5,7 +5,7 @@
 #include "Animation.h"
 #include <string>
 
-class Entity {
+class Entity{
 public:
     float x, y, dx, dy, R, angle;
     bool life;
@@ -18,5 +18,4 @@ public:
     void draw(SDL_Renderer *renderer);
     virtual ~Entity();
 };
-
 #endif
