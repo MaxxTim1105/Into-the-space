@@ -176,7 +176,7 @@ int main()
                             e->settings(new Animation(t7, 0, 0, 192, 192, 64, 0.5), a->x, a->y);
                             e->name="explosion";
                             entities.push_back(e);
-                            //chết thì rs lại vị trí của ship
+                            //đặt lại vận tốc của player
                             p->settings(new Animation(t1, 40, 0, 40, 40, 1, 0), W / 2, H / 2, 0, 20);
                             p->dx=0;
                             p->dy=0;
